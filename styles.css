@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-left:0rem;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    scrollbar-color: #777 #555;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav img{
+    height: 5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.header{
+    background-color: rgba(5, 5, 25, 0.5);
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 150px;
+    font-size: 1.5rem;
+}
+
+nav ul li {
+    margin: 0 20px 20px 20px ;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding-left: 20px;
+    padding-top: 5rem;
+    text-align: left;
+    justify-content: center;
+    font-size: 2rem;
+    height:80vh;
+    width:96vw;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+
+}
+.homespan{
+    color: aquamarine;
+}
+.teamhead{
+    font-size:2rem;
+    padding:2rem;
+    text-decoration: underline aquamarine;
+}
+
+.teamcontent {
+    padding-left:2rem;
+    font-size: 1.25rem;
+    color: rgb(204, 204, 204);
+}
+.teamcontentname{
+    color: aqua   ;
+}
+.teamcollegename{
+    color: rgb(255, 255, 255);
+}
+
+.body{
+    font-size: 16px;
+}
+.card{
+    height: 23rem;
+    width:17rem;
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 5px gray;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.card img{
+    padding: 0.9rem;
+    height:9rem;
+    width:9rem;
+    border-radius:50%;
+    border: 0.5px solid white;
+}
+.cards{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card b{
+    font-size: 1.5rem;
+}
+.pos{
+    padding-left: 2rem;
+}
+.links{
+    display: flex;
+    margin-bottom: 2rem;
+    color: #fff;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+}
+.connectlink{
+    list-style: none;
+    padding: 0.25rem 0.75rem;
+    margin-bottom: 1rem;
+}
+.card i{
+    font-size: 2.0rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+#vp2{
+    margin-left:2rem
+}
+.projhead{
+    font-size:2rem;
+    padding:2rem;
+    text-decoration: underline aquamarine;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    color: #000;
+
+}
+.foot{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    height: 10vh
+}
+.foot h2{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.icons{
+    margin-left: 1.2rem;
+    font-size: 2rem;
+    margin-top: 0.8rem;
+}
+.icons i{
+    margin-left: 1rem;
+    color: #000;
+}
+.project{
+    background-color: #181818;
+    width: 100%
+}
+
+.card {
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.pcard{
+    height: 30rem;
+    width: 21rem;
+    /* margin-left: 9rem; */
+    margin-bottom: 2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #333333;
+}
+.pcard a{
+    color: #fff;
+    text-decoration: none;
+}
+.pcard img{
+    width:100%;
+    border-radius:25px;
+}
+.pcard h3{
+    text-align: center;
+}
+.pcard:hover{
+    transition: ease-in;
+    background-color: #5d5d5d;
+    box-shadow: rgb(204,204,204);
+}
+i:hover{
+    font-size: 2.3rem;
+}
+.projcards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+html::-webkit-scrollbar{
+    width:0.6vw;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #777;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav .logo {
+        margin: 10px 20px;
+    }
+    nav ul {
+        margin: 10px 20px;
+    }
+}
